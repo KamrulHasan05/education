@@ -1,0 +1,273 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	/*common start*/
+	.feature,
+	.kid2,
+	.kid1 {
+	    padding-top: 40px;
+	    padding-bottom: 40px;
+	}
+	.c_container2,
+	.c_container {
+	    margin-bottom: 25px;
+	}
+	/*common end*/
+	/*header start*/
+	.logo {
+	    width: 70%;
+	}
+	.menu ul li a {
+	    padding: 3px 15px !important;
+	}
+	.menu ul li a:hover{
+		color: #f05c5c !important;
+		background-color: transparent;
+	}
+	.d_search_ul,
+	.d_user_ul{
+		left: 0;
+	}
+	.d_search_ul {
+	    min-width: 18.5rem;
+	}
+	/*header end*/
+	/*banner start*/
+	.b_content {
+	    margin-top: 135px;
+	    margin-bottom: 145px;
+	}
+	.b_content h1 {
+	    font-size: 20px;
+	}
+	.scroll p {
+	    font-size: 15px;
+	}
+	.scroll i {
+	    font-size: 25px;
+	}
+	/*banner end*/
+	/*kid1 start*/
+	.c_title {
+	    font-size: 20px;
+	}
+	.k_img {
+	    margin-bottom: 20px;
+	}
+	.discover {
+	    width: 180px;
+	}
+	/*kid1 end*/
+	/*kid2 start*/
+	.kid2_single{
+	    margin-bottom: 30px;
+	}
+	.kid2_single2 {
+	    margin-bottom: 0px;
+	}
+	.kid2_single h2 {
+	    font-size: 20px;
+	}
+	/*kid2 end*/
+	/*feature start*/
+	.cd {
+	    margin-top: 20px !important;
+	}
+	.custom {
+	    margin-top: 20px !important;
+	}
+	.custom2 {
+	    margin-top: 0px !important;
+	}
+	.ctt2 {
+	   margin-bottom: 25px !important; 
+	}
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/*common start */
+	.feature,
+	.kid2,
+	.kid1 {
+	    padding-top: 55px;
+	    padding-bottom: 55px;
+	}
+	.c_container2,
+	.c_container {
+	   margin-bottom: 35px !important;
+	}
+	/*common end*/
+	/*header start*/
+	.logo {
+	    width: 70%;
+	}
+	.menu ul li a {
+	    padding: 3px 15px !important;
+	}
+	.menu ul li a:hover{
+		color: #f05c5c !important;
+		background-color: transparent;
+	}
+	.d_search_ul,
+	.d_user_ul{
+		left: 0;
+	}
+	.d_search_ul {
+	    min-width: 18.5rem;
+	}
+	/*header end*/
+	/*banner start*/
+	.b_content {
+	    margin-top: 150px;
+	    margin-bottom: 160px;
+	}
+	.b_content h1 {
+	    font-size: 30px;
+	}
+	.scroll p {
+	    font-size: 16px;
+	}
+	.scroll i {
+	    font-size: 28px;
+	}
+	/*banner end*/
+	/*kid1 start*/
+	.k_img {
+	    margin-bottom: 20px;
+	}
+	.discover {
+	    width: 200px;
+	}
+	/*kid1 end*/
+	/*kid2 start*/
+	.kid2_single h2 {
+	    font-size: 22px;
+	}
+	.kid2_single{
+	    margin-bottom: 30px;
+	}
+	.kid2_single2 {
+	    margin-bottom: 0px;
+	}
+	/*kid2 end*/
+	.kid2_single2 {
+	    margin-bottom: 0px;
+	}
+	/*feature start*/
+	.c_container2{
+		margin-bottom: 50px;
+	}
+	.cd {
+	    margin-top: 30px;
+	}
+	.ctt2 {
+	   margin-bottom: 25px !important; 
+	}
+
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	/*common start*/
+	.feature,
+	.kid2,
+	.kid1 {
+	    padding-top: 65px;
+	    padding-bottom: 65px;
+	}
+	 /*common end*/
+	/*header start*/
+	.logo {
+	    width: 70%;
+	}
+	.menu ul li a {
+	    padding: 3px 15px !important;
+	}
+	.menu ul li a:hover{
+		color: #f05c5c !important;
+		background-color: transparent;
+	}
+	.d_search_ul,
+	.d_user_ul{
+		left: 0;
+	}
+	.d_search_ul {
+	    min-width: 18.5rem;
+	}
+	/*header end*/
+	/*banner start*/
+	.b_content {
+	    margin-top: 155px;
+	    margin-bottom: 175px;
+	}
+	.b_content h1 {
+	    font-size: 40px;
+	}
+	.scroll p {
+	    font-size: 16px;
+	}
+	.scroll i {
+	    font-size: 30px;
+	}
+	/*banner end*/
+	/*kid1 start*/
+	.k_img {
+	    margin-bottom: 20px;
+	}
+	.discover {
+	    width: 200px;
+	}
+	/*kid1 end*/
+	/*kid2 start*/
+	.kid2_single{
+	    margin-bottom: 40px;
+	}
+	.kid2_single2 {
+	    margin-bottom: 0px;
+	}
+	/*feature start*/
+	.c_container2{
+		margin-bottom: 50px;
+	}
+	.cd {
+	    margin-top: 30px;
+	}
+	.ctt2 {
+	     margin-bottom: 0px !important; 
+	}
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	/*banner start*/
+	.b_content {
+	    margin-top: 205px;
+	    margin-bottom: 210px;
+	}
+	.b_content h1 {
+	    font-size: 47px;
+	}
+	.scroll i {
+	    font-size: 35px;
+	}
+	/*banner end*/
+	/*kid2 start*/
+	
+	/*kid2 end*/
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+	/*banner start*/
+	.b_content {
+	    margin-top: 240px;
+	    margin-bottom: 250px;
+	}
+	/*banner end*/
+}
+
+/*Extra Extra large devices (Extra large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+
+}
