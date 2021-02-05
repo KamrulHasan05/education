@@ -53,16 +53,24 @@ header{
 	outline: 0;
 	box-shadow: none;
 }
-.d_search_ul,
+.d_search_ul{
+    background-color: transparent;
+}
 .d_user_ul{
 	background: #ffd338;
 }
 .d_user_ul{
+    top: 160%;
 	left: -115px;	
 }
 .d_search_ul {
+    top: 145%;
     left: -274px;
     min-width: 20rem;
+    border: none;
+}
+.f_f{
+
 }
 /*header end*/
 /*banner start*/
@@ -71,7 +79,6 @@ header{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top;
-	background-color: #f4f4f2;
 }
 .b_content {
     margin-top: 300px;
@@ -176,10 +183,6 @@ header{
 	background-color: #1ec0ff;
 	border: none;
 }
-
-/*.chd2{
-	background-color: #56d47e;
-}*/
 .chd span{
 	font-family: 'Lato', sans-serif;
 	font-size: 12px;
@@ -187,9 +190,10 @@ header{
     letter-spacing: 1px;
 } 
 .card-block {
+    margin: 0;
     font-size: 1em;
     position: relative;
-    margin: 0;
+    min-height: 155px;
     padding: 10px 16px;
     border: none;
     box-shadow: none;
@@ -230,12 +234,6 @@ header{
 }
 .ct2{
 	color: #000000;
-}
-.ctt2 {
-    margin-bottom: 25px !important;
-}
-.ctt3 {
-    margin-bottom: 23px !important;
 }
 .profile p{
 	margin-top: 16px;
