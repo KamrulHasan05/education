@@ -9,7 +9,7 @@
 	}
 	.c_container2,
 	.c_container {
-	    margin-bottom: 25px;
+	    margin-bottom: 15px;
 	}
 	/*common end*/
 	/*header start*/
@@ -25,6 +25,7 @@
 	}
 	.d_search_ul,
 	.d_user_ul{
+		top: 95%;
 		left: 0;
 	}
 	.d_search_ul {
@@ -54,32 +55,27 @@
 	    margin-bottom: 20px;
 	}
 	.discover {
-	    width: 180px;
+	    width: 160px;
 	}
 	/*kid1 end*/
 	/*kid2 start*/
 	.kid2_single{
-	    margin-bottom: 30px;
+	    margin-bottom: 25px;
 	}
 	.kid2_single2 {
 	    margin-bottom: 0px;
 	}
 	.kid2_single h2 {
-	    font-size: 20px;
+	    margin-top: 10px;
+    	font-size: 20px;
 	}
 	/*kid2 end*/
 	/*feature start*/
 	.cd {
-	    margin-top: 20px !important;
+	    margin-bottom: 20px !important;
 	}
-	.custom {
-	    margin-top: 20px !important;
-	}
-	.custom2 {
-	    margin-top: 0px !important;
-	}
-	.ctt2 {
-	   margin-bottom: 25px !important; 
+	.cd5 {
+	    margin-bottom: 0px !important;
 	}
 }
 
@@ -160,9 +156,6 @@
 	.cd {
 	    margin-top: 30px;
 	}
-	.ctt2 {
-	   margin-bottom: 25px !important; 
-	}
 
 
 }
@@ -232,9 +225,6 @@
 	}
 	.cd {
 	    margin-top: 30px;
-	}
-	.ctt2 {
-	     margin-bottom: 0px !important; 
 	}
 }
 
